@@ -1,0 +1,13 @@
+# Never commit the working exploit / evidence bundle (withheld until patch)
+runner/
+*_runner.*
+*_verifier.*
+evidence/
+*.zip
+transcript*.json*
+
+# OS / editor
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
